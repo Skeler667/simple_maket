@@ -332,3 +332,30 @@ display: none;
         width: 80%;
     }
 }
+
+@media screen and (max-width:470px) {
+    .contact {
+        padding-right: 2%;
+    }    
+}
+
+@media screen and (max-width:430px) {
+    .contact {
+        padding-right: 4%;
+    }    
+}
+
+@media screen and (max-width:400px) {
+    .contact {
+        padding-right: 8%;
+    }
+    .fix {
+        margin: 0 auto;
+    }    
+}
+
+@media screen and (max-width:360px) {
+    .contact {
+        padding-right: 12%;
+    }    
+}
